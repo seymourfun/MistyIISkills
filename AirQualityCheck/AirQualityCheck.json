@@ -1,0 +1,20 @@
+{
+    "Name": "AirQualityCheck",
+    "UniqueId": "992e1f54-1ef5-4902-a8a7-8b5666d97eb8",
+    "Description": "Checks Breezemeter.com for Air Quality in your city",
+    "StartupRules": [
+      "Manual",
+      "Robot"
+    ],
+    "Language": "javascript",
+    "BroadcastMode": "verbose",
+    "TimeoutInSeconds": 600,
+    "CleanupOnCancel": true,
+    "WriteToLog": false,
+    "Parameters": {
+      "breezeApiKey": "<Your API Key From Breezometer",
+      "Lat":"37.334789",
+      "Lon":"-121.888138",
+      "Location": "ForLater"
+    }
+  }
